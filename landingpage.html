@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Master</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    h1 {
+      font-size: 3.5em;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      color: #fff;
+      padding: 15px 35px;
+      font-size: 1em;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: scale(1.05);
+    }
+
+    
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🧠 Memory Master</h1>
+    <p>Challenge your brain with a beautifully crafted memory game. Match the cards, beat the clock, and climb the leaderboard. Are you ready to master your memory?</p>
+    <a href="index.html" class="btn">🎮 Start Playing</a>
+  </header>
+
+  <footer>
+   
+  </footer>
+</body>
+</html>
